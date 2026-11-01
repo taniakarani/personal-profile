@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form Assignment</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="useremail">Email:</label><br>
+        <input type="email" id="useremail" name="useremail" required><br><br>
+
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass" required><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label><br><br>
+
+        <label>Interests:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="art" name="interests" value="art">
+        <label for="art">Art</label><br><br>
+
+        <label for="mycountry">Country:</label><br>
+        <select id="mycountry" name="mycountry" required>
+            <option value="">Select Country</option>
+            <option value="kenya">Kenya</option>
+            <option value="uganda">Uganda</option>
+            <option value="tanzania">Tanzania</option>
+        </select><br><br>
+
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="msg" rows="5" cols="40" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
